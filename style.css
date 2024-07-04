@@ -1,0 +1,90 @@
+
+
+* {
+    box-sizing: border-box ;
+    margin: 0 ;
+    padding: 0 ;
+}
+body{
+    background-color: hsl(210, 46%, 945%);
+    font-family: "Barlow Semi Condensed";  
+}
+
+
+.main{
+    
+}
+.cl-img{
+    
+    height: auto; width: 40px
+}
+.z-1{
+    z-index:1!important;
+}
+.z-0{
+    z-index:0!important;
+}
+.main-left{
+    /* background-color: bisque; */
+    height: 99.5vh;
+}
+.main-left{
+    /* background-color: hsl(0, 0%, 81%); */
+    height: 99.5vh;
+}
+
+.main-news{
+    margin-top: 10vh;
+
+}
+.top-left{
+  
+    background-color: hsl(263, 55%, 52%);
+}
+.top-middle{
+    
+    background-color: hsl(217, 19%, 35%);
+}
+.bottom-left{
+ 
+    background-color: hsl(0, 0%, 100%);
+}
+.bottom-middle{
+
+    background-color:hsl(219, 29%, 14%);
+}
+.card-height{
+    height: 45vh;
+}
+.br-15{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.person-img{
+    margin-right: 1rem;
+}
+.right-news{
+    margin-top: 10vh;
+
+}
+.top-right {
+    background-color: hsl(0, 0%, 100%);
+    height: 104vh;
+}
+.light-gray{
+    color: hsl(0, 0%, 81%); 
+}
+.light-grayish-blue{
+    color: hsl(210, 46%, 95%)
+}
+.opacity-50{
+    opacity: 0.5;
+}
+
+.opacity-70{
+    opacity: 0.7;
+}
+
