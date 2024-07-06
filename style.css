@@ -6,17 +6,27 @@
     padding: 0 ;
 }
 body{
-    background-color: hsl(210, 46%, 945%);
+    /* background-color: hsl(210, 46%, 945%); */
+    background-color:hsl(210, 46%, 95%);
     font-family: "Barlow Semi Condensed";  
+    font-size: .8125rem;
 }
 
-
+.fs-5 {
+    font-size: 1.25rem !important;
+}
+.person-name{
+    font-size: 1rem !important;
+    position: relative;
+    top: 1vh;
+}
 .main{
     
 }
 .cl-img{
+    right:1vh;
     
-    height: auto; width: 40px
+    /* height: auto; width: 40px */
 }
 .z-1{
     z-index:1!important;
@@ -34,7 +44,7 @@ body{
 }
 
 .main-news{
-    margin-top: 10vh;
+    margin-top: 5vh;
 
 }
 .top-left{
@@ -54,7 +64,12 @@ body{
     background-color:hsl(219, 29%, 14%);
 }
 .card-height{
-    height: 45vh;
+    /* height: 45vh; */
+    min-height: 45vh;
+}
+.big-card-height{
+     height: 45vh;
+    /* min-height: 90vh; */
 }
 .br-15{
     border-radius: 15px;
@@ -67,7 +82,7 @@ body{
     margin-right: 1rem;
 }
 .right-news{
-    margin-top: 10vh;
+    margin-top: 3vh;
 
 }
 .top-right {
@@ -88,3 +103,6 @@ body{
     opacity: 0.7;
 }
 
+.dark-blue {
+    color: #1F3B4D !important; 
+  }
